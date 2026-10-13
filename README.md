@@ -65,7 +65,7 @@ hallucination-scanner/
 ### Prerequisites
 
 * Python 3.9+
-* [Ollama](https://ollama.com/) installed and running locally.
+* Ollama installed and running locally.
 * Git
 
 ### Setup
@@ -140,3 +140,6 @@ The `benchmark.py` script automatically processes a Train/Test split of adversar
 python benchmark.py
 
 ```
+## Demo
+
+https://github.com/user-attachments/assets/78aeb152-49d5-4d56-af62-cf98d82ccc39
