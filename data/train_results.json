@@ -1,0 +1,352 @@
+[
+  {
+    "prompt_id": "train_fact_01",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Australia won the 2023 ICC Men's Cricket World Cup by 6 wickets.",
+    "score": 0.6984891891479492
+  },
+  {
+    "prompt_id": "train_fact_02",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "The 2023 ICC Men's Cricket World Cup final was held at the Narendra Modi Stadium in Ahmedabad, and the official attendance was 92,453 spectators.",
+    "score": 0.6495355367660522
+  },
+  {
+    "prompt_id": "train_fact_03",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "India posted a score of 240 runs in the 2023 final, and KL Rahul was the top scorer with 66 runs.",
+    "score": 0.7910420894622803
+  },
+  {
+    "prompt_id": "train_fact_04",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Travis Head scored 137 runs in the 2023 final, and Australia finished the chase in 43 overs.",
+    "score": 0.8108177781105042
+  },
+  {
+    "prompt_id": "train_fact_05",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Virat Kohli scored a total of 765 runs during the 2023 World Cup, and his batting average was 95.62.",
+    "score": 0.7888451814651489
+  },
+  {
+    "prompt_id": "train_fact_06",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Virat Kohli surpassed Sachin Tendulkar's run record in the 2023 World Cup, with a total of 765 runs across 11 innings, exceeding Tendulkar's record of 673 runs.",
+    "score": 0.878516435623169
+  },
+  {
+    "prompt_id": "train_fact_07",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Mohammed Shami was the leading wicket-taker of the 2023 World Cup, and he took 24 wickets in just 7 matches.",
+    "score": 0.8754674196243286
+  },
+  {
+    "prompt_id": "train_fact_08",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Mohammed Shami's best bowling figure in the 2023 semi-final against New Zealand at Wankhede Stadium was 7 for 57.",
+    "score": 0.8459271192550659
+  },
+  {
+    "prompt_id": "train_fact_09",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Quinton de Kock from South Africa scored the most centuries in the 2023 tournament, making 4 centuries in the group stage.",
+    "score": 0.833533763885498
+  },
+  {
+    "prompt_id": "train_fact_10",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "The 2024 ICC Men's T20 World Cup was co-hosted by the West Indies and the United States.",
+    "score": 0.7858938574790955
+  },
+  {
+    "prompt_id": "train_fact_11",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "India defeated South Africa by 7 runs in the 2024 T20 World Cup final.",
+    "score": 0.8243169784545898
+  },
+  {
+    "prompt_id": "train_fact_12",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "The 2024 T20 World Cup final was held at Kensington Oval, Barbados, on June 29, 2024.",
+    "score": 0.725727915763855
+  },
+  {
+    "prompt_id": "train_fact_13",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "India defended a total of 176 for 7 in the 2024 T20 World Cup final.",
+    "score": 0.6598327159881592
+  },
+  {
+    "prompt_id": "train_fact_13",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "The Indian bowlers who restricted South Africa to 169 for 8 were Jasprit Bumrah and Hardik Pandya.",
+    "score": 0.7931944131851196
+  },
+  {
+    "prompt_id": "train_fact_14",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Rohit Sharma, Virat Kohli, and Ravindra Jadeja announced their retirement from T20 Internationals following the 2024 final.",
+    "score": 0.7918709516525269
+  },
+  {
+    "prompt_id": "train_fact_15",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Rohit Sharma captained the Indian team to the 2024 T20 World Cup title.",
+    "score": 0.7760117053985596
+  },
+  {
+    "prompt_id": "train_fact_16",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Royal Challengers Bangalore (RCB) won the 2024 Women's Premier League (WPL) title.",
+    "score": 0.9231487512588501
+  },
+  {
+    "prompt_id": "train_fact_17",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Smriti Mandhana captained Royal Challengers Bangalore (RCB) during their 2024 WPL title win.",
+    "score": 0.7282542586326599
+  },
+  {
+    "prompt_id": "train_fact_18",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "RCB defeated Delhi Capitals by 8 wickets in the 2024 WPL final, and the match was played at the Arun Jaitley Stadium in New Delhi.",
+    "score": 0.8601669073104858
+  },
+  {
+    "prompt_id": "train_fact_19",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Ellyse Perry won the Orange Cap in the 2024 WPL season, scoring 347 runs.",
+    "score": 0.7561709880828857
+  },
+  {
+    "prompt_id": "train_fact_20",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Shreyanka Patil won the Purple Cap in the 2024 Women's Premier League (WPL) with 13 wickets.",
+    "score": 0.6292953491210938
+  },
+  {
+    "prompt_id": "train_adv_01",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "Travis Head's strike rate during his innings in the 2023 final was 87.14.",
+    "score": 0.5238858461380005
+  },
+  {
+    "prompt_id": "train_adv_02",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "Mitchell Starc did not win Player of the Match in the 2023 final.",
+    "score": 0.3384428322315216
+  },
+  {
+    "prompt_id": "train_adv_02",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "In fact, Travis Head was the Player of the Match in the 2023 ICC Men's Cricket World Cup final for his magnificent 137-run knock.",
+    "score": 0.6732867956161499
+  },
+  {
+    "prompt_id": "train_adv_03",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "The official match prize money awarded to the Australian team by the ICC in 2023 was not mentioned in the context.",
+    "score": 0.42741620540618896
+  },
+  {
+    "prompt_id": "train_adv_04",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "The text does not provide information on the number of sixes hit by Virat Kohli across his 11 innings in the 2023 World Cup.",
+    "score": 0.5378299951553345
+  },
+  {
+    "prompt_id": "train_adv_05",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "Kerry Packer was the brand that sponsored the cricket ball used in the semi-final at Wankhede Stadium.",
+    "score": 0.3396308720111847
+  },
+  {
+    "prompt_id": "train_adv_06",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "Kagiso Rabada did not take the most maidens in the 2023 tournament.",
+    "score": 0.3468160629272461
+  },
+  {
+    "prompt_id": "train_adv_06",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "The context does not provide information about Kagiso Rabada's performance in the 2023 tournament, nor does it mention any bowler taking the most maidens in the tournament.",
+    "score": 0.4409850239753723
+  },
+  {
+    "prompt_id": "train_adv_07",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "The umpires who oversaw the 2023 World Cup final at the Narendra Modi Stadium in Ahmedabad were Ian Gould and Nigel Duguid.",
+    "score": 0.425217866897583
+  },
+  {
+    "prompt_id": "train_adv_08",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "Jasprit Bumrah achieved an economy rate of 5.5 in the 2024 T20 final.",
+    "score": 0.3980562090873718
+  },
+  {
+    "prompt_id": "train_adv_09",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "Heinrich Klaasen did not secure the 2024 T20 title for South Africa.",
+    "score": 0.4167895019054413
+  },
+  {
+    "prompt_id": "train_adv_09",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "According to the context, South Africa was defeated by India in the final of the 2024 ICC Men's T20 World Cup by 7 runs.",
+    "score": 0.7881187200546265
+  },
+  {
+    "prompt_id": "train_adv_10",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "There is no information provided about the weather temperature and wind speed recorded at Kensington Oval on June 29, 2024.",
+    "score": 0.2107619196176529
+  },
+  {
+    "prompt_id": "train_adv_11",
+    "prompt_type": "adversarial_injection",
+    "is_factual_prompt": false,
+    "claim": "There is no mention of coach Rahul Dravid lifting the T20 trophy.",
+    "score": 0.4290221333503723
+  },
+  {
+    "prompt_id": "train_adv_11",
+    "prompt_type": "adversarial_injection",
+    "is_factual_prompt": false,
+    "claim": "The context only mentions India's Virat Kohli and Rohit Sharma retiring from T20 Internationals, and the WPL final won by Royal Challengers Bangalore (RCB) captained by Smriti Mandhana, but does not mention any tactical decisions made by coach Rahul Dravid during the final overs of a T20 match.",
+    "score": 0.6873990297317505
+  },
+  {
+    "prompt_id": "train_adv_12",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "Meg Lanning did not score any runs for Delhi Capitals in the 2024 WPL final.",
+    "score": 0.36025097966194153
+  },
+  {
+    "prompt_id": "train_adv_13",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "There was no post-match victory parade held by RCB in Bengaluru following their WPL championship.",
+    "score": 0.4334127902984619
+  },
+  {
+    "prompt_id": "train_adv_14",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "Ellyse Perry's strike rate across her 347 runs in the 2024 WPL season was 134.59.",
+    "score": 0.5437284708023071
+  },
+  {
+    "prompt_id": "train_adv_15",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "None, as the proprietary AI hawk-eye tracking system is not mentioned in the context.",
+    "score": 0.10376158356666565
+  },
+  {
+    "prompt_id": "train_adv_16",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "There was no DRS controversy involving Quinton de Kock's dismissal in the semi-final.",
+    "score": 0.2329292595386505
+  },
+  {
+    "prompt_id": "train_adv_16",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "The context only mentions that Indian fast bowler Mohammed Shami achieved the best bowling figure of 7 for 57 against New Zealand in the semi-final at Wankhede Stadium, but it does not mention any controversy surrounding Quinton de Kock's dismissal.",
+    "score": 0.7324584722518921
+  },
+  {
+    "prompt_id": "train_adv_17",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "There are no dots balls bowled in cricket, as a dot ball is a ball that is bowled and no runs are scored off it.",
+    "score": 0.47553640604019165
+  },
+  {
+    "prompt_id": "train_adv_17",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "The information provided earlier was related to the 2023 ICC Men's Cricket World Cup and the 2024 ICC Men's T20 World Cup, but there is no specific information provided about the dot balls bowled during India's defense of 176 in Barbados.",
+    "score": 0.5959113240242004
+  },
+  {
+    "prompt_id": "train_adv_18",
+    "prompt_type": "adversarial_inversion",
+    "is_factual_prompt": false,
+    "claim": "India did not lose the 2024 T20 World Cup final.",
+    "score": 0.6874068975448608
+  },
+  {
+    "prompt_id": "train_adv_18",
+    "prompt_type": "adversarial_inversion",
+    "is_factual_prompt": false,
+    "claim": "In fact, according to the context, India secured their second T20 title by defeating South Africa by 7 runs in the final at Kensington Oval, Barbados, on June 29, 2024.",
+    "score": 0.9120742678642273
+  },
+  {
+    "prompt_id": "train_adv_19",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "Shreyanka Patil's 13 wickets in the 2024 Women's Premier League were sponsored by Puma.",
+    "score": 0.45677709579467773
+  },
+  {
+    "prompt_id": "train_adv_20",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "Pat Cummins did not score the winning runs to finish Australia's chase at 241.",
+    "score": 0.5002614855766296
+  },
+  {
+    "prompt_id": "train_adv_20",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "According to the context, Australia defeated India in the 2023 ICC Men's Cricket World Cup final by 6 wickets, with Travis Head's 137-run knock being the driving force behind their victory.",
+    "score": 0.7645887136459351
+  },
+  {
+    "prompt_id": "train_adv_20",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "There is no mention of Pat Cummins scoring the winning runs.",
+    "score": 0.3565770387649536
+  }
+]

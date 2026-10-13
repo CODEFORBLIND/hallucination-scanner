@@ -1,0 +1,191 @@
+[
+  {
+    "prompt_id": "test_fact_01",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "The 2023 ICC Men's Cricket World Cup was the 13th edition of the tournament, hosted entirely by India from October 5 to November 19, 2023.",
+    "score": 1.0
+  },
+  {
+    "prompt_id": "test_fact_02",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Australia won its record-extending sixth World Cup title with their victory in November 2023.",
+    "score": 0.711053729057312
+  },
+  {
+    "prompt_id": "test_fact_03",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Australia's final score in the 2023 ICC Men's Cricket World Cup final was 241 for 4.",
+    "score": 0.7021087408065796
+  },
+  {
+    "prompt_id": "test_fact_04",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Mohammed Shami played 7 matches to achieve his tournament-leading 24 wickets.",
+    "score": 0.8608723878860474
+  },
+  {
+    "prompt_id": "test_fact_05",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Sachin Tendulkar achieved a record of 673 runs in a single World Cup edition in 2003.",
+    "score": 0.7862744927406311
+  },
+  {
+    "prompt_id": "test_fact_06",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Quinton de Kock did not announce his retirement after the 2023 tournament.",
+    "score": 0.4142671823501587
+  },
+  {
+    "prompt_id": "test_fact_06",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "According to the context, he hit the most centuries, scoring 4 in the group stage, before retiring from ODI cricket, but this retirement occurred before the 2023 tournament, not after it.",
+    "score": 0.7040383815765381
+  },
+  {
+    "prompt_id": "test_fact_07",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "South Africa reached a final score of 169 for 8 in their 2024 T20 World Cup chase against India.",
+    "score": 0.6246317625045776
+  },
+  {
+    "prompt_id": "test_fact_08",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Rohit Sharma, Virat Kohli, and Ravindra Jadeja.",
+    "score": 0.7033069133758545
+  },
+  {
+    "prompt_id": "test_fact_09",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "The 2024 WPL final was held on March 17, 2024.",
+    "score": 0.5500025153160095
+  },
+  {
+    "prompt_id": "test_fact_10",
+    "prompt_type": "factual",
+    "is_factual_prompt": true,
+    "claim": "Shreyanka Patil claimed the Purple Cap in the 2024 WPL with 13 wickets.",
+    "score": 0.6095386743545532
+  },
+  {
+    "prompt_id": "test_adv_01",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "Mohammed Shami's best bowling figure in the 2023 tournament was 7 for 57 against New Zealand in the semi-final at Wankhede Stadium.",
+    "score": 0.8606535196304321
+  },
+  {
+    "prompt_id": "test_adv_01",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "However, the top speed of his fastest delivery is not specified in the context.",
+    "score": 0.211138516664505
+  },
+  {
+    "prompt_id": "test_adv_02",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "There is no mention of a musical artist performing at the innings break of the 2023 World Cup final in Ahmedabad.",
+    "score": 0.24071447551250458
+  },
+  {
+    "prompt_id": "test_adv_03",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "KL Rahul scored 66 runs in the 2023 ICC Men's Cricket World Cup final.",
+    "score": 0.7163323163986206
+  },
+  {
+    "prompt_id": "test_adv_03",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "To calculate his strike rate, we need to know the number of balls he faced.",
+    "score": 0.4190306067466736
+  },
+  {
+    "prompt_id": "test_adv_03",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "Since he was batting first and India was bowled out for 240 runs in 50 overs, Rahul likely faced around 66 runs / 4.5 overs (since 240/50 = 4.8 overs per wicket, and India lost 9 wickets) = approximately 14.4 overs.",
+    "score": 0.7716373205184937
+  },
+  {
+    "prompt_id": "test_adv_03",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "So, KL Rahul's exact strike rate would be 66 runs / 14.4 overs = 4.59.",
+    "score": 0.6497933864593506
+  },
+  {
+    "prompt_id": "test_adv_04",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "There is no mention of David Warner in the text, and therefore, there is no information available on how his opening partnership set up Australia's chase.",
+    "score": 0.386799156665802
+  },
+  {
+    "prompt_id": "test_adv_05",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "There is no mention of official broadcast sponsors for the 2024 ICC Men's T20 World Cup in the USA in the provided context.",
+    "score": 0.5175734162330627
+  },
+  {
+    "prompt_id": "test_adv_06",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "The answer is: None, because Hardik Pandya was not involved in the final over.",
+    "score": 0.4984992742538452
+  },
+  {
+    "prompt_id": "test_adv_06",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "He, along with Jasprit Bumrah, bowled to restrict South Africa to 169 for 8 in the final of the 2024 ICC Men's T20 World Cup.",
+    "score": 0.7578018307685852
+  },
+  {
+    "prompt_id": "test_adv_07",
+    "prompt_type": "adversarial_inversion",
+    "is_factual_prompt": false,
+    "claim": "Delhi Capitals did not win the inaugural WPL championship.",
+    "score": 0.439081609249115
+  },
+  {
+    "prompt_id": "test_adv_07",
+    "prompt_type": "adversarial_inversion",
+    "is_factual_prompt": false,
+    "claim": "In fact, Royal Challengers Bangalore (RCB) won their maiden title by defeating Delhi Capitals by 8 wickets in the final at the Arun Jaitley Stadium in New Delhi on March 17, 2024.",
+    "score": 0.7579436302185059
+  },
+  {
+    "prompt_id": "test_adv_08",
+    "prompt_type": "adversarial_fabrication",
+    "is_factual_prompt": false,
+    "claim": "Smriti Mandhana, the captain of Royal Challengers Bangalore (RCB), used a bat from the brand Kookaburra in the final at the Arun Jaitley Stadium.",
+    "score": 0.6477721333503723
+  },
+  {
+    "prompt_id": "test_adv_09",
+    "prompt_type": "adversarial_number",
+    "is_factual_prompt": false,
+    "claim": "The answer is not provided in the given context, as it does not mention Ellyse Perry's boundary count during her Orange Cap campaign.",
+    "score": 0.5460848808288574
+  },
+  {
+    "prompt_id": "test_adv_10",
+    "prompt_type": "adversarial_entity",
+    "is_factual_prompt": false,
+    "claim": "There is no mention of Glenn Maxwell in the provided context.",
+    "score": 0.1013980507850647
+  }
+]

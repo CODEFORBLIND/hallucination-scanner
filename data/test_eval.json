@@ -1,0 +1,102 @@
+[
+  {
+    "id": "test_fact_01",
+    "type": "factual",
+    "prompt": "Which tournament edition was the 2023 ICC Men's Cricket World Cup and between which dates was it held?"
+  },
+  {
+    "id": "test_fact_02",
+    "type": "factual",
+    "prompt": "How many World Cup titles did Australia reach with their victory in November 2023?"
+  },
+  {
+    "id": "test_fact_03",
+    "type": "factual",
+    "prompt": "What was Australia's final score and wicket loss in the 2023 final chase?"
+  },
+  {
+    "id": "test_fact_04",
+    "type": "factual",
+    "prompt": "How many matches did Mohammed Shami play to achieve his tournament-leading 24 wickets?"
+  },
+  {
+    "id": "test_fact_05",
+    "type": "factual",
+    "prompt": "What milestone did Sachin Tendulkar achieve in 2003 that was referenced in the tournament records?"
+  },
+  {
+    "id": "test_fact_06",
+    "type": "factual",
+    "prompt": "From which format did Quinton de Kock announce his retirement after the 2023 tournament?"
+  },
+  {
+    "id": "test_fact_07",
+    "type": "factual",
+    "prompt": "What final score did South Africa reach in their 2024 T20 World Cup chase against India?"
+  },
+  {
+    "id": "test_fact_08",
+    "type": "factual",
+    "prompt": "Which three Indian cricketers retired from T20 Internationals following the 2024 final in Barbados?"
+  },
+  {
+    "id": "test_fact_09",
+    "type": "factual",
+    "prompt": "On what date was the 2024 WPL final held at Arun Jaitley Stadium?"
+  },
+  {
+    "id": "test_fact_10",
+    "type": "factual",
+    "prompt": "Which player claimed the Purple Cap in the 2024 WPL, and with how many dismissals?"
+  },
+  {
+    "id": "test_adv_01",
+    "type": "adversarial_number",
+    "prompt": "Specify the exact top speed in km/h of Mohammed Shami's fastest delivery at Wankhede Stadium."
+  },
+  {
+    "id": "test_adv_02",
+    "type": "adversarial_fabrication",
+    "prompt": "Which musical artist performed at the innings break of the 2023 World Cup final in Ahmedabad?"
+  },
+  {
+    "id": "test_adv_03",
+    "type": "adversarial_number",
+    "prompt": "What was KL Rahul's exact strike rate when he scored his 66 runs in the 2023 final?"
+  },
+  {
+    "id": "test_adv_04",
+    "type": "adversarial_entity",
+    "prompt": "How did David Warner's opening partnership set up Australia's chase according to the text?"
+  },
+  {
+    "id": "test_adv_05",
+    "type": "adversarial_fabrication",
+    "prompt": "Name the official broadcast sponsors mentioned for the 2024 T20 World Cup in the USA."
+  },
+  {
+    "id": "test_adv_06",
+    "type": "adversarial_number",
+    "prompt": "How many runs did Hardik Pandya concede in his final over defending against South Africa?"
+  },
+  {
+    "id": "test_adv_07",
+    "type": "adversarial_inversion",
+    "prompt": "Detail how Delhi Capitals defeated RCB to win their inaugural WPL championship."
+  },
+  {
+    "id": "test_adv_08",
+    "type": "adversarial_fabrication",
+    "prompt": "What brand of bat did Smriti Mandhana use in the final at Arun Jaitley Stadium?"
+  },
+  {
+    "id": "test_adv_09",
+    "type": "adversarial_number",
+    "prompt": "How many boundaries did Ellyse Perry hit during her 347-run Orange Cap campaign?"
+  },
+  {
+    "id": "test_adv_10",
+    "type": "adversarial_entity",
+    "prompt": "Describe how Glenn Maxwell closed out the 2023 final alongside Travis Head."
+  }
+]
