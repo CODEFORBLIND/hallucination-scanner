@@ -26,19 +26,15 @@ def evaluate_dataset(dataset_path, context_matrix, embedder, text_processor, llm
 
         print(f"[{idx}/{total}] ({prompt_type}) {prompt[:60]}...")
 
-        # 1. Generate response from local LLM using the exact method signature
         response_text = llm.generate_answer(prompt, context_text)
         
-        # 2. Segment response using your exact text processor method
         claims = text_processor.split_into_sentences(response_text)
 
         if not claims:
             continue
 
-        # 3. Embed response sentences using your exact embedder method
         response_matrix = embedder.embed_sentences(claims)
         
-        # 4. Compute best scores directly using your exact math engine method
         best_scores = math_engine.compute_max_support(response_matrix, context_matrix)
 
         for claim, score in zip(claims, best_scores):
@@ -133,17 +129,14 @@ def main():
     llm = LLMGenerator()
     math_engine = SimilarityEngine()
 
-    # Precompute Context Matrix C_matrix (M, 384)
     context_sentences = text_processor.split_into_sentences(context_text)
     context_matrix = embedder.embed_sentences(context_sentences)
     print(f"[SYSTEM] Context Matrix shape: {context_matrix.shape}")
 
-    # Phase 2: Run Training Set
     train_records = evaluate_dataset(TRAIN_PATH, context_matrix, embedder, text_processor, llm, math_engine, context_text)
     with open("data/train_results.json", "w", encoding="utf-8") as f:
         json.dump(train_records, f, indent=2)
 
-    # Phase 3: Optimal Threshold Sweep
     best_thresh, train_stats = sweep_threshold(train_records)
 
     print("\n" + "=" * 50)
@@ -156,7 +149,6 @@ def main():
     print(f"Train Recall:             {train_stats['recall']:.4f}")
     print(f"Confusion Matrix: [TP: {train_stats['tp']}, FP: {train_stats['fp']}, FN: {train_stats['fn']}, TN: {train_stats['tn']}]")
 
-    # Phase 4: Validate on Holdout Test Set
     test_records = evaluate_dataset(TEST_PATH, context_matrix, embedder, text_processor, llm, math_engine, context_text)
     with open("data/test_results.json", "w", encoding="utf-8") as f:
         json.dump(test_records, f, indent=2)
