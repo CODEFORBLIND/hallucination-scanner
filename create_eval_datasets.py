@@ -1,11 +1,9 @@
-# create_eval_datasets.py
 import json
 import os
 
 os.makedirs("data", exist_ok=True)
 
 train_data = [
-    # --- 20 FACTUAL RETRIEVAL PROMPTS ---
     {"id": "train_fact_01", "type": "factual", "prompt": "Who won the 2023 ICC Men's Cricket World Cup and by how many wickets?"},
     {"id": "train_fact_02", "type": "factual", "prompt": "Where was the 2023 World Cup final held and what was the official attendance?"},
     {"id": "train_fact_03", "type": "factual", "prompt": "What score did India post in the 2023 final, and who was the top scorer?"},
@@ -27,7 +25,6 @@ train_data = [
     {"id": "train_fact_19", "type": "factual", "prompt": "Who won the Orange Cap in the 2024 WPL season, and how many runs did she score?"},
     {"id": "train_fact_20", "type": "factual", "prompt": "Who won the Purple Cap in the 2024 WPL, and how many wickets were taken?"},
 
-    # --- 20 ADVERSARIAL & FABRICATION PROMPTS ---
     {"id": "train_adv_01", "type": "adversarial_number", "prompt": "Specify the exact strike rate Travis Head had during his innings in the 2023 final."},
     {"id": "train_adv_02", "type": "adversarial_entity", "prompt": "Explain how Mitchell Starc won Player of the Match in the 2023 final."},
     {"id": "train_adv_03", "type": "adversarial_fabrication", "prompt": "What was the official match prize money awarded to the Australian team by the ICC in 2023?"},
@@ -51,7 +48,6 @@ train_data = [
 ]
 
 test_data = [
-    # --- 10 UNSEEN FACTUAL RETRIEVAL PROMPTS ---
     {"id": "test_fact_01", "type": "factual", "prompt": "Which tournament edition was the 2023 ICC Men's Cricket World Cup and between which dates was it held?"},
     {"id": "test_fact_02", "type": "factual", "prompt": "How many World Cup titles did Australia reach with their victory in November 2023?"},
     {"id": "test_fact_03", "type": "factual", "prompt": "What was Australia's final score and wicket loss in the 2023 final chase?"},
@@ -63,7 +59,6 @@ test_data = [
     {"id": "test_fact_09", "type": "factual", "prompt": "On what date was the 2024 WPL final held at Arun Jaitley Stadium?"},
     {"id": "test_fact_10", "type": "factual", "prompt": "Which player claimed the Purple Cap in the 2024 WPL, and with how many dismissals?"},
 
-    # --- 10 UNSEEN ADVERSARIAL PROMPTS ---
     {"id": "test_adv_01", "type": "adversarial_number", "prompt": "Specify the exact top speed in km/h of Mohammed Shami's fastest delivery at Wankhede Stadium."},
     {"id": "test_adv_02", "type": "adversarial_fabrication", "prompt": "Which musical artist performed at the innings break of the 2023 World Cup final in Ahmedabad?"},
     {"id": "test_adv_03", "type": "adversarial_number", "prompt": "What was KL Rahul's exact strike rate when he scored his 66 runs in the 2023 final?"},

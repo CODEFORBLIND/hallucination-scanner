@@ -5,12 +5,12 @@ def _ensure_punkt_downloaded():
     """Ensures sentence boundary models are present in the local cache."""
     try:
         nltk.data.find('tokenizers/punkt')
-    except (LookupError, OSError):  # <--- Added OSError here
+    except (LookupError, OSError):  
         nltk.download('punkt', quiet=True)
         
     try:
         nltk.data.find('tokenizers/punkt_tab')
-    except (LookupError, OSError):  # <--- Added OSError here
+    except (LookupError, OSError):  
         nltk.download('punkt_tab', quiet=True)
 
 class TextProcessor:
@@ -26,7 +26,7 @@ class TextProcessor:
         raw_sentences = sent_tokenize(text.strip())
         return [s.strip() for s in raw_sentences if s.strip()]
 
-# --- Standalone Test Execution ---
+
 if __name__ == "__main__":
     processor = TextProcessor()
     

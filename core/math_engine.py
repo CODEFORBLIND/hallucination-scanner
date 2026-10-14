@@ -19,7 +19,6 @@ class SimilarityEngine:
         S_norm = cls.normalize_matrix(sentence_embeddings)
         C_norm = cls.normalize_matrix(context_embeddings)
         
-        # Matrix multiplication: (M x D) @ (D x N) = (M x N)
         return np.dot(S_norm, C_norm.T)
 
     @classmethod
@@ -31,19 +30,16 @@ class SimilarityEngine:
         sim_matrix = cls.compute_similarity_matrix(sentence_embeddings, context_embeddings)
         return np.max(sim_matrix, axis=1)
 
-# --- Standalone Test Execution ---
 if __name__ == "__main__":
     from core.embedder import VectorEngine
 
     embedder = VectorEngine()
     
-    # Ground-truth context
     context = [
         "The system kernel killed process 4012 due to total memory exhaustion.",
         "Server traffic was rerouted to secondary backup nodes in Frankfurt."
     ]
     
-    # Test sentences: one factual match, one total hallucination
     generated = [
         "A process was terminated because RAM ran out.",
         "The system failure was orchestrated by Russian cyber warfare specialists."

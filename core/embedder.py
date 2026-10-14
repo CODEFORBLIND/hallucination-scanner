@@ -16,11 +16,9 @@ class VectorEngine:
         Takes a list of strings and returns a 2D NumPy array (Matrix).
         Shape: (Number of Sentences, 384)
         """
-        # We explicitly cast the output to a NumPy array for raw matrix math later
         embeddings = self.model.encode(sentences)
         return np.array(embeddings)
 
-# --- Standalone Test Execution ---
 if __name__ == "__main__":
     engine = VectorEngine()
     

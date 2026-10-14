@@ -15,7 +15,6 @@ class LLMGenerator:
         if self.use_mock:
             return self._mock_generation()
 
-        # Construct the strict RAG prompt
         full_prompt = (
             f"Context:\n{context}\n\n"
             f"Task: Answer the question below directly and authoritatively. "
@@ -53,13 +52,11 @@ class LLMGenerator:
             "Fortunately, no customer data was lost during the incident."
         )
 
-# --- Standalone Test Execution ---
 if __name__ == "__main__":
     context_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'source_context.txt')
     with open(context_path, 'r') as f:
         source_text = f.read()
 
-    # Set use_mock=False to trigger the actual LLaMA-3 model
     generator = LLMGenerator(use_mock=False)
     
     print("\n--- Live Ollama Inference Test ---")
