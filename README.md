@@ -29,7 +29,6 @@ The pipeline is built on a two-tier local architecture:
 
 ---
 
-
 ## Methodology & Challenges Overcome
 
 Standard AI fact-checkers often struggle with two major issues:
@@ -46,16 +45,21 @@ This scanner solves these edge cases through:
 
 ```text
 hallucination-scanner/
-├── data/
-│   └── source_context.txt       # The trusted RAG knowledge base
-├── llm/
+├── core/
 │   ├── __init__.py
-│   └── generator.py             # Ollama LLaMA-3 interface & prompting
-├── scanner.py                   # Main CLI driver & production app
-├── benchmark.py                 # Automated hyperparameter tuning & grid sweep
-├── requirements.txt             # Project dependencies
-└── README.md                    # System documentation
-
+│   ├── embedder.py              # SentenceTransformer (all-MiniLM-L6-v2) vector mapping
+│   ├── math_engine.py           # NumPy L2-normalization & cosine similarity math
+│   └── text_processor.py        # NLTK Punkt sentence segmentation
+├── data/
+│   ├── source_context.txt       # The trusted RAG knowledge base
+│   ├── train_dataset.json       # Calibration prompts (Factual & Adversarial)
+│   ├── test_dataset.json        # Holdout test set for threshold validation
+│   └── train_results.json       # Exported ledger from benchmark F1 sweeps
+├── llm/
+│   └── generator.py             # Ollama LLaMA-3 API interface & adversarial prompting
+├── scanner.py                   # Main CLI driver (Live production firewall)
+├── benchmark.py                 # ML threshold calibration & grid sweep logic
+└── requirements.txt             # Dependencies
 ```
 
 ---
